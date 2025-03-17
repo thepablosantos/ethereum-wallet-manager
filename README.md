@@ -1,11 +1,10 @@
+# Ethereum Wallet Manager
 
-# Ethereum Wallet Generator & Keystore Encryptor
+A simple Node.js project to manage Ethereum wallets. It allows you to:
 
-This is a simple Node.js project that demonstrates how to:
-
-- Generate an Ethereum wallet (address + private key)
-- Encrypt the private key into a Keystore JSON file (V3 format) using a user-defined password
-- Decrypt the Keystore JSON to recover the wallet using the password
+- Generate Ethereum wallets (address + private key)
+- Encrypt private keys into Keystore JSON files (V3 format) using password protection
+- Decrypt Keystore JSON files to recover wallets securely
 
 ### 🔧 Technologies Used
 
@@ -24,6 +23,7 @@ This is a simple Node.js project that demonstrates how to:
 ├── wallet_decrypt.js            # Script to decrypt keystore and recover wallet
 ├── package.json
 ├── .gitignore
+├── LICENSE
 └── README.md
 ```
 
